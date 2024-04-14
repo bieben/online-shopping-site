@@ -1,0 +1,35 @@
+{
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "lint": "eslint .",
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "18"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "@babel/helper-annotate-as-pure": "^7.22.5",
+    "@babel/helper-create-class-features-plugin": "^7.24.4",
+    "@babel/helper-member-expression-to-functions": "^7.23.0",
+    "@babel/helper-optimise-call-expression": "^7.22.5",
+    "@babel/helper-replace-supers": "^7.24.1",
+    "@babel/helper-skip-transparent-expression-wrappers": "^7.22.5",
+    "@babel/plugin-syntax-private-property-in-object": "^7.14.5",
+    "firebase-admin": "^11.11.1",
+    "firebase-functions": "^4.3.1",
+    "stripe": "^15.1.0"
+  },
+  "devDependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
+    "eslint": "^8.15.0",
+    "eslint-config-google": "^0.14.0",
+    "firebase-functions-test": "^3.1.0"
+  },
+  "private": true
+}
