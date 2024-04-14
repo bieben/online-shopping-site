@@ -1,6 +1,7 @@
 # Online Shopping Site cloning from Amazon
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).  
-And it's deployed with Firebase. Just click to see! [Web App Deployment](https://challenge-f01ad.web.app/)
+And it's deployed with Firebase. Just click to see! 
+## [Web App Deployment](https://challenge-f01ad.web.app/)
 
 ## Available Scripts
 
