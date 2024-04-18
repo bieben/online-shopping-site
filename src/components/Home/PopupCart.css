@@ -1,0 +1,45 @@
+/* PopupCart.css */
+.modal-content {
+    background-color: #f8f9fa; /* Light grey background */
+    border-radius: 8px; /* Rounded corners for the modal */
+    border: 1px solid #dee2e6; /* Slight border for definition */
+}
+
+.modal-header {
+    border-bottom: 1px solid #dee2e6; /* Adds a subtle line under the header */
+    background-color: #e9ecef; /* Slightly darker background for the header */
+}
+
+.modal-title {
+    color: #495057; /* Dark grey color for the text */
+}
+
+.modal-body {
+    padding: 20px; /* More padding for spacing out the content */
+}
+
+.modal-footer {
+    border-top: 1px solid #dee2e6; /* Adds a subtle line above the footer */
+    justify-content: space-between; /* Spaces out the buttons */
+}
+
+.button-primary {
+    background-color: #007bff; /* Bootstrap primary color */
+    border-color: #007bff;
+}
+
+.button-secondary {
+    background-color: #6c757d; /* Bootstrap secondary color */
+    border-color: #6c757d;
+}
+
+/* Additional styles for CheckoutProduct and Subtotal components if needed */
+.checkout-product {
+    padding: 10px 0; /* Adds vertical padding around each product */
+    border-bottom: 1px solid #dee2e6; /* Separates products */
+}
+
+.subtotal {
+    font-weight: bold; /* Makes subtotal text bold */
+    margin-top: 20px; /* Adds space above the subtotal */
+}

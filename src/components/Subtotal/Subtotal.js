@@ -25,7 +25,7 @@ function Subtotal() {
         </small>
       </div>
 
-      <button onClick={e => navigate('/payment')}>Proceed ot Checkout</button>
+      <button onClick={e => navigate('/payment')}>Proceed to Checkout</button>
     </div>
   )
 }

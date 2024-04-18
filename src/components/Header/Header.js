@@ -5,6 +5,7 @@ import ShoppingBasketIcon from '@mui/icons-material/ShoppingBasket';
 import { Link } from 'react-router-dom'
 import { useStateValue } from '../../StateProvider'
 import { auth } from '../../firebase';
+import PopupCart from '../Home/PopupCart';
 
 function Header() {
   const [{ cart, user }, dispatch] = useStateValue();
@@ -48,6 +49,10 @@ function Header() {
         <div className='header__option'>
           <span className='header__optionLineOne'>Your</span>
           <span className='header__optionLineTwo'>Prime</span>
+        </div>
+
+        <div className='header__option'>
+          {/* <PopupCart /> */}
         </div>
 
         <Link to='/checkout'>
